@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html lang="en">
 
 <head>
@@ -7,6 +7,34 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/d3Style.css">
+  <style>
+    h1 {
+    /* Put a 15-pixel margin at the bottom of the heading. */
+    margin-bottom: 15px;
+    /* Change the size of your font to 60 pixels high. */
+    font-size: 60px;
+    /* This will color the heading font white. */
+    color: black;
+    /* Align the text to the center of its enclosing element (e.g. div). */
+    text-align: center;
+    /* Underline the text. */
+    text-decoration: underline;
+    /* The background of the heading element will now be black. */
+    background-color: rgb(216, 158, 71);
+  }
+    body {
+      background-color: rgb(216, 158, 71) ;
+    }
+
+    h2 {
+      text-align: center;
+    }
+    
+    p {
+      text-align: center;
+    }
+  
+  </style>
 
 </head>
 
@@ -15,6 +43,7 @@
     <div class="row">
       <div class="col-xs-12 col-md-12">
         <h1>D3Times</h1>
+        <p text-align=center>Scatter Plot built with D3 showing % of people in poverty vs lacking healthcare by each state in the US</p>
         <hr>
       </div>
     </div>
@@ -27,19 +56,18 @@
     </div>
     <div class="row">
       <div class="col-xs-12  col-md-9">
-        <div class="article">
+        <div>
           <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
           <hr>
-          <p>There seems to be a direct.</p>
+          <ul>
+            <li>There seems to be a positive correlation between % of people in Poverty and % of people that lack healthcare.</li>
+            <li>As the % of people in poverty goes up, the percentage of people that lack health care also goes up.</li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Footer-->
-  <div id="footer">
-    <p>The Coding Boot Camp&copy;2016</p>
-  </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
